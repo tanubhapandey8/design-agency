@@ -1,0 +1,106 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #c4d3dd;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+.main {
+  flex: 1;
+  display:inline-block;
+ background-color:rgb(224, 197, 215);
+
+}
+
+.logo{
+ border-radius:5%;
+ width: 100px;
+ height:30px;
+ background-color:rgb(203, 82, 104);
+ font-family: cursive;
+
+}
+ /* @media(max-width:600px){
+  {
+
+  }
+ } */
+
+h1 {
+  font-size: 4rem;
+  display:inline-block;
+  color:rgb(140, 140, 240);
+  padding: 80px 50px;
+  text-align:centre;
+  margin:5%;
+
+  ;
+}
+
+img{
+  height: 200px;
+  width: 200px;
+ 
+  
+}
+
+
+
+.left{
+   background-color:rgb(250, 150, 212);
+  float:left;
+
+   
+
+}
+.right{  
+  background-color:rgb(243, 153, 128);
+  float:right;
+
+
+
+}
+.card{
+  width:39%;
+  padding:10px;
+  text-align:justify;
+  border-radius: 10px;
+  display:inline-block;
+  padding-top:20px;
+  height:auto;
+
+
+}
+
+.tile-image{
+ float:left;
+ margin:50px;
+ padding-top:60px;
+
+}
+
+
+.card-title{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top:50px;
+  padding-left:20px;
+
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  
+}
+
+.card-text{
+  flex:1;
+  padding:10px;
+}
+.create{
+  font-size: larger;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:darkred;
+}
